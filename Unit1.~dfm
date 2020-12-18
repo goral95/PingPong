@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
-  Width = 1142
-  Height = 690
+  Left = 200
+  Top = 120
+  Width = 1016
+  Height = 659
   Caption = 'PingPong by Lukasz'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,14 +17,14 @@ object Form1: TForm1
   object background: TShape
     Left = 0
     Top = 0
-    Width = 1126
-    Height = 631
+    Width = 1000
+    Height = 600
     Align = alClient
     Brush.Color = clLime
   end
   object paddle1: TImage
     Left = 8
-    Top = 248
+    Top = 250
     Width = 20
     Height = 100
     AutoSize = True
@@ -221,8 +221,8 @@ object Form1: TForm1
       000000000000000000000000000000000000}
   end
   object paddle2: TImage
-    Left = 1096
-    Top = 248
+    Left = 972
+    Top = 250
     Width = 20
     Height = 100
     AutoSize = True
@@ -419,8 +419,8 @@ object Form1: TForm1
       000000000000000000000000000000000000}
   end
   object ball: TImage
-    Left = 536
-    Top = 264
+    Left = 484
+    Top = 284
     Width = 36
     Height = 36
     AutoSize = True
