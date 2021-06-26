@@ -301,8 +301,7 @@ void __fastcall TForm1::Ogrze1Click(TObject *Sender)
 
 void __fastcall TForm1::Otwrcy1Click(TObject *Sender)
 {
-        Application->MessageBox("Przekierowanie na strone internetowa twórcy wkrótce...\n"
-        "Strona internetowa twórcy jeszcze nie istnieje...", "Info", MB_OK);
+        Application->MessageBox("Zapraszam na stronê twórcy: \n www.lukaszgorczyk.pl", "Info", MB_OK);
 }
 //---------------------------------------------------------------------------
 
